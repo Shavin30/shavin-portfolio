@@ -74,7 +74,7 @@ export const projects = [
       'Implemented robust file handling and data parsing algorithms to convert raw traffic logs into organized, actionable reports.',
     longDescription:
       'The Traffic Management System is a specialized Python utility designed to interpret complex traffic data. By leveraging efficient file handling techniques, the application reads large-scale CSV datasets to identify trends and bottlenecks. The system focuses on data integrity and performance, ensuring that raw inputs are transformed into a structured format suitable for traffic flow analysis and urban planning insights.',
-    stack: ['Python', 'CSV Module', 'File Handling'],
+    stack: ['Python'],
     coverImage: trafficManagementCover,
     gallery: [
       trafficManagementGallery1,
