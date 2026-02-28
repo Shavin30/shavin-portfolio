@@ -7,10 +7,15 @@ function ProjectDetailPage({ project }) {
   return (
     <>
       <section className="project-detail section-block reveal visible">
-        <a href="#/" className="project-back">
-          Back to Portfolio
-        </a>
-        <p className="project-type">{project.type}</p>
+        <div className="project-meta">
+          <p className="project-type">{project.type}</p>
+          <button
+            type="button"
+            className={`project-status ${project.status === 'ongoing' ? 'ongoing' : 'done'}`}
+          >
+            {project.status === 'ongoing' ? 'Ongoing' : 'Done'}
+          </button>
+        </div>
         <h1>{project.title}</h1>
         <p className="intro">{project.longDescription}</p>
 

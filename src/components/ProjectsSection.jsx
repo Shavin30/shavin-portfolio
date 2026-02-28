@@ -3,7 +3,14 @@ import { useMemo, useState } from 'react'
 function ProjectsSection({ projects }) {
   const [activeProject, setActiveProject] = useState('')
 
-  const featuredProjects = useMemo(() => projects.slice(0, 3), [projects])
+  const featuredProjects = useMemo(
+    () =>
+      projects
+        .filter((project) => Number.isInteger(project.featuredRank))
+        .sort((a, b) => a.featuredRank - b.featuredRank)
+        .slice(0, 3),
+    [projects]
+  )
 
   return (
     <section className="section-block reveal" id="projects">
@@ -31,6 +38,13 @@ function ProjectsSection({ projects }) {
                 loading="lazy"
               />
               <p className="project-type">{project.type}</p>
+              <button
+                type="button"
+                className={`project-status ${project.status === 'ongoing' ? 'ongoing' : 'done'}`}
+                onClick={(event) => event.stopPropagation()}
+              >
+                {project.status === 'ongoing' ? 'Ongoing' : 'Done'}
+              </button>
               <h3>{project.title}</h3>
               <p>{project.description}</p>
               <div className={`project-extra ${isActive ? 'show' : ''}`}>

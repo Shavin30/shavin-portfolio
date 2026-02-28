@@ -781,6 +781,31 @@ h2 {
   font-family: Consolas, 'Courier New', monospace;
 }
 
+.project-status {
+  margin-top: 0.55rem;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 0.28rem 0.72rem;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-family: Consolas, 'Courier New', monospace;
+  pointer-events: none;
+}
+
+.project-status.done {
+  background: rgba(20, 140, 60, 0.2);
+  border-color: rgba(30, 210, 95, 0.45);
+  color: #43e07e;
+}
+
+.project-status.ongoing {
+  background: rgba(255, 136, 40, 0.2);
+  border-color: rgba(255, 170, 70, 0.5);
+  color: #ffae57;
+}
+
 .project-card h3 {
   margin: 0.32rem 0 0.45rem;
 }
@@ -940,6 +965,13 @@ h2 {
 
 .project-detail h1 {
   margin-top: 0.2rem;
+}
+
+.project-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
 }
 
 .project-back {

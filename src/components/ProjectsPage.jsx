@@ -28,6 +28,13 @@ function ProjectsPage({ projects }) {
                 loading="lazy"
               />
               <p className="project-type">{project.type}</p>
+              <button
+                type="button"
+                className={`project-status ${project.status === 'ongoing' ? 'ongoing' : 'done'}`}
+                onClick={(event) => event.stopPropagation()}
+              >
+                {project.status === 'ongoing' ? 'Ongoing' : 'Done'}
+              </button>
               <h3>{project.title}</h3>
               <p>{project.description}</p>
               <div className={`project-extra ${isActive ? 'show' : ''}`}>

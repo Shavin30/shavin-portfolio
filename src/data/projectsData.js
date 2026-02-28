@@ -1,6 +1,8 @@
 export const projects = [
   {
     slug: 'kuddles',
+    featuredRank: 1,
+    status: 'ongoing',
     title: 'Kuddles',
     type: 'Mobile App',
     description:
@@ -22,6 +24,8 @@ export const projects = [
   },
   {
     slug: 'estate-agent',
+    featuredRank: 2,
+    status: 'done',
     title: 'Estate Agent',
     type: 'Mobile App',
     description:
@@ -43,6 +47,8 @@ export const projects = [
   },
   {
     slug: 'traffic-management-system',
+    featuredRank: 3,
+    status: 'done',
     title: 'Traffic Management System',
     type: 'Python Application',
     description:
@@ -64,6 +70,7 @@ export const projects = [
   },
   {
     slug: 'sdg-zero-hunger',
+    status: 'done',
     title: 'SDG: Zero Hunger',
     type: 'Web Project',
     description:
