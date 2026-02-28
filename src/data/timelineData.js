@@ -16,8 +16,8 @@ export const timeline = [
   },
   {
     year: '2010 -2023',
-    title: 'ST. BENEDICTS COLLEGE (Primary & Higher Education)',
-    detail: 'GCE A/L Commerce Stream (z-score: 1.32), G.C.E O/L 6As including Mathematics, ICT and English, College Senior Prefect,  College Swimming coloursmen & vice captain, ELU Vice President, Interactor',
+    title: 'ST. BENEDICTS COLLEGE (Primary & Secondary Education)',
+    detail: 'GCE A/L Commerce Stream (z-score: 1.32), G.C.E O/L 6As including Mathematics ICT and English, College Senior Prefect,  College Swimming coloursmen & vice captain, ELU Vice President, Interactor',
   },
 
 ]
