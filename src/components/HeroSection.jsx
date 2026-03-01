@@ -1,6 +1,8 @@
 import SocialLinks from './SocialLinks'
 
 function HeroSection() {
+  const cvUrl = `${import.meta.env.BASE_URL}Shavin-De-Silva-CV.pdf`
+
   return (
     <section className="hero-shell reveal">
       <div className="hero-main">
@@ -18,7 +20,7 @@ function HeroSection() {
             --ready to build
           </div>
           <div className="hero-actions hero-actions-center">
-            <a className="btn btn-primary hero-download-btn" href="/Shavin-De-Silva-CV.pdf" download>
+            <a className="btn btn-primary hero-download-btn" href={cvUrl} download>
               Download CV
             </a>
           </div>
