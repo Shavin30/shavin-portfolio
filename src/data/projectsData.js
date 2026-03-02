@@ -14,6 +14,7 @@ import sdgZeroHungerGallery2 from '../assets/projects/sdg-zero-hunger/Screenshot
 import sdgZeroHungerGallery3 from '../assets/projects/sdg-zero-hunger/Screenshot (498).png'
 import sdgZeroHungerGallery4 from '../assets/projects/sdg-zero-hunger/Screenshot (499).png'
 import sdgZeroHungerGallery5 from '../assets/projects/sdg-zero-hunger/Screenshot (500).png'
+import kuddlesCover from '../assets/projects/kuddles/cover.png'
 
 export const projects = [
   {
@@ -29,14 +30,8 @@ export const projects = [
     longDescription:
       'Kuddles is designed to provide peace of mind to working parents by centralizing child care management. The application supports real-time updates on a child’s daily routines, well-being metrics, and milestones. Built with a focus on reliability and security, it ensures that sensitive data regarding child schedules and locations remains private and accessible only to authorized users.',
     stack: ['React Native', 'Node.js', 'Express.js', 'MongoDB', 'Firebase'],
-    coverImage: 'https://picsum.photos/seed/kuddles-cover/900/520',
-    gallery: [
-      'https://picsum.photos/seed/kuddles-1/1200/760',
-      'https://picsum.photos/seed/kuddles-2/1200/760',
-      'https://picsum.photos/seed/kuddles-3/1200/760',
-      'https://picsum.photos/seed/kuddles-4/1200/760',
-      'https://picsum.photos/seed/kuddles-5/1200/760',
-    ],
+    coverImage: kuddlesCover,
+    gallery: [],
     github: 'https://github.com/shavin/kuddles',
   },
   {
