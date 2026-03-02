@@ -14,7 +14,7 @@ function AboutSection() {
         </div>
         <div className="about-body">
           <p>
-            I’m a second-year Computer Science undergraduate at the Informatics Institute of
+            I’m a second-year Computer Science undergraduate at Informatics Institute of
             Technology (IIT) with a deep-seated enthusiasm for full-stack engineering. I focus
             on creating digital systems that are as technically sound as they are visually
             polished.

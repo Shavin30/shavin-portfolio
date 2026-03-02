@@ -12,8 +12,7 @@ function HeroSection() {
             <span className="accent">Shavin</span> De Silva
           </h1>
           <p className="hero-subtitle">
-            Building full-stack products with crisp UX, thoughtful architecture,
-            and production-ready delivery.
+           Turn real-world problems into clean, efficient, and meaningful digital solutions.
           </p>
           <div className="hero-console">
             <span className="prompt">$</span> status --dev mode
