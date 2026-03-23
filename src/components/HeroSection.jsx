@@ -1,7 +1,7 @@
 import SocialLinks from './SocialLinks'
 
 function HeroSection() {
-  const cvUrl = `${import.meta.env.BASE_URL}Shavin-De-Silva-CV.pdf`
+  const cvUrl = `${import.meta.env.BASE_URL}shavin_de_silva_cv.pdf`
 
   return (
     <section className="hero-shell reveal">
